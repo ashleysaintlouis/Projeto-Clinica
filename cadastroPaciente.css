@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#forme{
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+legend{
+    font-weight: bold;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+}
+
+#cadastroP{
+    font-size: 28px;
+}
+
+#end{
+    font-size: 22px;
+}
+
+#dadosP{
+    font-size: 22px;
+}
+
+#carteiraS{
+    font-size: 20px;
+}
+
+label{
+    font-size: 18px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 10px;
+}
+
+input{
+    font-size: 18px;
+    padding: 5px 5px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+fieldset{
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+#dadosPessoal{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 70px;
+    grid-row-gap: 1em;
+}
+
+#tiposSanguineos{
+    text-align: center;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px 30px;
+}
+
+#endereco{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 70px;
+    grid-row-gap: 1em;
+}
+
+
+
+#btn_submit{
+    font-size: 22px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 100px;
+    background-color: #007bff;
+    transition: background-color 0.3 ease;
+}
+
+#btn_submit:hover{
+    background-color: #0056b3;
+}

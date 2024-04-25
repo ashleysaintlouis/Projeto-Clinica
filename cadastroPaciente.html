@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro De Paciente</title>
+    <link rel="stylesheet" type="text/css" href="cadastroPaciente.css" media="screen">
+
+</head>
+<body>
+    <form id="forme" action="post">
+        <fieldset id="cadastroPaciente">
+            <Legend id="cadastroP">Cadastro de Paciente</Legend>
+
+            <fieldset id="dadosPessoal">
+                <legend id="dadosP">Dados Pessoais</legend>
+                <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                </div>
+                
+                <div>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" id="sobrenome" name="sobrenome" required>
+                </div>
+
+                <div>
+                <label for="datnasc">Data de Nascimento:</label>
+                <input type="date" id="datnasc" name="datnasc" required>
+                </div>
+
+                <div>
+                <label for="parente">Parente:</label>
+                <input type="text" id="parente" name="parente" required>
+                </div>
+
+                <div>
+                <label for="cpf">CPF:</label>
+                <input type="text" id="cpf" name="cpf" required>
+                </div>
+
+                <div>
+                <label for="tel">Telefone:</label>
+                <input type="tel" id="tel" name="tel" required>
+                </div>
+
+                <div>
+                <label for="tiposSanguineos">Tipos Sanuíneos:</label>
+                <select name="tiposSanguineos" id="tiposSanguineos">
+                    <option value="0">Escolhe o seu tipo</option>
+                    <option value="1">A</option>
+                    <option value="2">A Negativo</option>
+                    <option value="3">A Positivo</option>
+                    <option value="4">B</option>
+                    <option value="5">B Negativo</option>
+                    <option value="6">B Positivo</option>
+                    <option value="7">AB</option>
+                    <option value="8">AB Negativo</option>
+                    <option value="9">AB Positivo</option>
+                    <option value="10">O</option>
+                    <option value="12">O Negativo</option>
+                    <option value="11">O Positivo</option>
+                </select>
+                </div>
+
+                <fieldset id="carteiraSaude">
+                    <legend id="carteiraS">Carteira de Saúde</legend>
+                    <div>                  
+                    <label for="numeroCarteira">Número da Carteira:</label>
+                    <input type="text" id="numeroCarteira" name="numeroCarteira" required>
+                    </div>
+
+                    <div>
+                    <label for="operador">Operador:</label>
+                    <input type="text" id="operador" name="operador" required>
+                    </div>
+
+                    <div>
+                    <label for="validade">Validade:</label>
+                    <input type="date" id="validade" name="validade" required>
+                    </div>
+                </fieldset>
+            </fieldset>
+
+            <fieldset id="endereco">
+
+                <legend id="end">Endereço</legend>
+
+                <div>
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" name="cep">
+                </div>
+
+                <div>
+                <label for="logradouro">Logradouro:</label>
+                <input type="text" id="logradouro" name="logradouro">
+                </div>
+                
+                <div>
+                <label for="bairro">Bairro:</label>
+                <input type="text" id="bairro" name="bairro">
+                </div>
+                
+                <div>
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade">
+                </div>
+
+                <div>
+                <label for="numeroEnd">Número:</label>
+                <input type="text" id="numeroEnd" name="numeroEnd">
+                </div>
+
+                <div>
+                <label for="estado">Estado:</label>
+                <input type="text" id="estado" name="estado">
+                </div>
+
+            </fieldset>
+
+            <input type="submit" id="btn_submit" name="btn_submit" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+</html>
